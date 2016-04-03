@@ -1,4 +1,4 @@
-package testgnFiles;
+package testngFiles;
 
 import org.testng.annotations.Test;
 

@@ -54,7 +54,7 @@ public class xmlparameters {
 	@Parameters({"adminUserid"})
 	public void FlightBooking(String Userid){
 		
-		System.out.println( Userid);
+		System.out.println(Userid);
 		
 	}
 	

@@ -1,4 +1,4 @@
-package testgnFiles;
+package testngFiles;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
