@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation test">
+	<test name="SmokeTest">
+	<Parameter name="adminUserid" value="abcd"/>
+	<classes>
+		<class name="datadriven.Annotations"/>
+	</classes>
+	</test>
+
+</suite>

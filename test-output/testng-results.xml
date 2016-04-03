@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11887" started-at="2016-04-03T09:15:42Z" finished-at="2016-04-03T09:15:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11887" started-at="2016-04-03T09:15:42Z" finished-at="2016-04-03T09:15:54Z">
+      <class name="datadriven.callMethodFromOtherClass">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:datadriven.callMethodFromOtherClass@2d209079]" name="OpeningBrowser" duration-ms="4536" started-at="2016-04-03T16:15:42Z" finished-at="2016-04-03T16:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:datadriven.callMethodFromOtherClass@2d209079]" name="Login" duration-ms="7338" started-at="2016-04-03T16:15:47Z" finished-at="2016-04-03T16:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- datadriven.callMethodFromOtherClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
