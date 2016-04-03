@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [automation test]">
+  <test name="SmokeTest">
+    <classes>
+      <class name="testngFiles.Annotations"/>
+      <class name="testngFiles.Annotation2"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- Failed suite [automation test] -->
