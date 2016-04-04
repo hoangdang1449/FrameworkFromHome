@@ -3,8 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="testgnFiles.Annotations"/>
-      <class name="testgnFiles.Annotation2"/>
+      <class name="bitrix24.CommonAction"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

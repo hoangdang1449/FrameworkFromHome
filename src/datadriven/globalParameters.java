@@ -19,7 +19,7 @@ public class globalParameters {
 	public void Login() throws IOException{
 		
 		Properties prop=new Properties();
-		FileInputStream fis=new FileInputStream("E:\\Backup\\Training\\FrameworkFromHome\\src\\datadriven\\datadriven.properties");
+		FileInputStream fis=new FileInputStream("D:\\Backup\\Training\\New Folder\\FrameworkFromHome\\src\\datadriven\\datadriven.properties");
 		prop.load(fis);
 		//System.out.println(prop.getProperty("username"));
 		

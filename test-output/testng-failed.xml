@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [automation test]">
-  <test name="SmokeTest">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="testngFiles.Annotations"/>
-      <class name="testngFiles.Annotation2"/>
+      <class name="bitrix24.CommonAction"/>
     </classes>
-  </test> <!-- SmokeTest -->
-</suite> <!-- Failed suite [automation test] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
