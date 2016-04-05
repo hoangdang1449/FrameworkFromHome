@@ -3,23 +3,26 @@ package bitrix24;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class CommonAction 
 
 {
 
+//Variable declaration
 public WebDriver driver = null;
 
-@Test
-public void Login() throws IOException
+
+@AfterMethod
+public void Navigate() throws IOException 
 
 {
+	
 	//Load value from properties file
 	Properties prop = new Properties();
 	FileInputStream datasetfile = new FileInputStream("D:\\Backup\\Training\\New folder\\FrameworkFromHome\\src\\bitrix24\\dataset.properties");
@@ -46,11 +49,10 @@ public void Login() throws IOException
 			driver = new InternetExplorerDriver();
 		}
 	
-	//Navigate to bitrix24
-	driver.get(prop.getProperty("url"));
-	
-	//Check the title of the page
-	System.out.println(driver.getTitle());
+			//Navigate to bitrix24
+			driver.get(prop.getProperty("url"));
+			
+			//Check the title of the page
+			System.out.println(driver.getTitle());
 }
-	
 }
