@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20798" started-at="2016-04-05T04:57:53Z" finished-at="2016-04-05T04:58:14Z">
+  <suite name="Default suite" duration-ms="77778" started-at="2016-04-06T04:28:20Z" finished-at="2016-04-06T04:29:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20798" started-at="2016-04-05T04:57:53Z" finished-at="2016-04-05T04:58:14Z">
-      <class name="bitrix24.ValidateLogin">
-        <test-method status="PASS" signature="Login()[pri:0, instance:bitrix24.ValidateLogin@6ea6d14e]" name="Login" duration-ms="8651" started-at="2016-04-05T11:57:53Z" finished-at="2016-04-05T11:58:02Z">
+    <test name="Default test" duration-ms="77778" started-at="2016-04-06T04:28:20Z" finished-at="2016-04-06T04:29:38Z">
+      <class name="datadriven.callMethodFromOtherClass">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:datadriven.callMethodFromOtherClass@34340fab]" name="OpeningBrowser" duration-ms="41318" started-at="2016-04-06T11:28:20Z" finished-at="2016-04-06T11:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:datadriven.callMethodFromOtherClass@34340fab]" name="Login" duration-ms="36434" started-at="2016-04-06T11:29:01Z" finished-at="2016-04-06T11:29:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Navigate()[pri:0, instance:bitrix24.ValidateLogin@6ea6d14e]" name="Navigate" is-config="true" duration-ms="12126" started-at="2016-04-05T11:58:02Z" finished-at="2016-04-05T11:58:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navigate -->
-      </class> <!-- bitrix24.ValidateLogin -->
+      </class> <!-- datadriven.callMethodFromOtherClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
